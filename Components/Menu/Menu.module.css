@@ -1,0 +1,32 @@
+.menu{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--black);
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: var(--white);
+    overflow: hidden;
+}
+
+.menuHeader{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+   
+}
+
+.menuHeader h1{
+    font-size:2rem;
+}
+
+.menu nav{
+    padding: 2rem;
+    font-size: 1.8rem;
+}
+.menu nav ul li{
+    list-style: none;
+    text-transform: uppercase;
+}
